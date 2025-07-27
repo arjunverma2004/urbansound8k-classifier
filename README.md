@@ -4,7 +4,15 @@ This project is a Streamlit web app that classifies environmental sounds from au
 
 ## 🔍 Overview
 
-The app lets users upload a `.wav` file, extracts Mel-Frequency Cepstral Coefficients (MFCCs) using `librosa`, and predicts the sound category using a pre-trained TensorFlow model.
+The app lets users upload a `.wav or mp3` file, extracts Mel-Frequency Cepstral Coefficients (MFCCs) using `librosa`, and predicts the sound category using a pre-trained TensorFlow model.
+
+## 🚀 Demo
+
+![App Screenshot](https://github.com/arjunverma2004/ANN-CustomerChurn-classification/blob/main/screenshots/Screenshot.png)
+
+> Predict whether a customer will churn or not using a trained neural network.
+
+---
 
 ## 🎯 Predicted Classes
 
@@ -40,4 +48,64 @@ Try the app on **Streamlit Cloud**:
 - Loss function: Categorical Crossentropy
 
 ## 📁 Project Structure
+```
+urbansound8k-classifier/
+│
+├── app.py # Streamlit frontend
+├── model.keras # Trained classification model
+├── labelencoder.pkl # Fitted label encoder
+├── requirements.txt # Python dependencies
+├── runtime.txt # Python version for Streamlit (optional)
+└── README.md # This file
+```
 
+
+## ⚙️ Installation & Local Run
+
+
+### 📦 Clone the repository
+
+```bash
+git clone https://github.com/arjunverma2004/ANN-CustomerChurn-classification.git
+cd ANN-CustomerChurn-classification
+```
+
+## 🐍 Create a virtual environment (recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+## 🔧 Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## ▶️ Run the Streamlit App Locally
+
+```bash
+streamlit run app.py
+```
+
+
+
+## 📦 Deployment
+
+This app is deployable on Streamlit Cloud. Ensure the following files are included in the root of your GitHub repo:
+
+- ```app.py```
+
+- ```model.keras```
+
+- ```labelencoder.pkl```
+
+- ```requirements.txt```
+
+## ✍️ Author
+
+**Arjun Verma**
+
+- GitHub: [@arjunverma2004](https://github.com/arjunverma2004)  
+- LinkedIn: [Arjun Verma](https://www.linkedin.com/in/arjunverma2004/)
