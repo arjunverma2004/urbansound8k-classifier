@@ -30,9 +30,9 @@ def extract_features(file):
 
 # Streamlit UI
 st.title("UrbanSound8K Audio Classifier 🎧")
-st.write("Upload a `.wav/mp3` file to classify the type of sound.")
+st.write("Upload a `.wav or mp3` file to classify the type of sound.")
 
-uploaded_file = st.file_uploader("Choose an audio file (.wav or .mp3)", type=["wav", "mp3"])
+uploaded_file = st.file_uploader(type=["wav", "mp3"])
 
 
 if uploaded_file is not None:
