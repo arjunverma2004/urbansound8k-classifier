@@ -6,8 +6,8 @@ import pickle
 import os
 
 # Load the trained model and label encoder
-model = tf.keras.models.load_model("model.keras")
-labelencoder = pickle.load(open("labelencoder.pkl", "rb"))
+model = tf.keras.models.load_model("models/model.keras")
+labelencoder = pickle.load(open("models/labelencoder.pkl", "rb"))
 
 # Function to extract features from uploaded audio file
 def extract_features(file):
