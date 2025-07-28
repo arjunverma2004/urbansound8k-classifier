@@ -14,7 +14,7 @@ Try the app on **Streamlit Cloud**:
 
 > Upload any `.wav` audio file to see it in action!
 
-![App Screenshot](https://github.com/arjunverma2004/ANN-CustomerChurn-classification/blob/main/screenshots/Screenshot.png)
+![App Screenshot](https://github.com/arjunverma2004/urbansound8k-classifier/blob/main/screenshots/urbansound8k-classifier_ss.png)
 
 
 ---
