@@ -8,9 +8,14 @@ The app lets users upload a `.wav or mp3` file, extracts Mel-Frequency Cepstral 
 
 ## 🚀 Demo
 
+Try the app on **Streamlit Cloud**:
+
+👉 [Launch App](https://urbansound8k-classifier.streamlit.app)
+
+> Upload any `.wav` audio file to see it in action!
+
 ![App Screenshot](https://github.com/arjunverma2004/ANN-CustomerChurn-classification/blob/main/screenshots/Screenshot.png)
 
-> Predict whether a customer will churn or not using a trained neural network.
 
 ---
 
@@ -31,13 +36,6 @@ The model can recognize the following 10 environmental sound classes:
 | car_horn           | 
 | gun_shot           | 
 
-## 🚀 Live Demo
-
-Try the app on **Streamlit Cloud**:
-
-👉 [Launch App](https://urbansound8k-classifier.streamlit.app)
-
-> Upload any `.wav` audio file to see it in action!
 
 ## 🧠 Model Details
 
